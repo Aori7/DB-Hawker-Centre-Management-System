@@ -42,4 +42,13 @@ OfficerContactNo	char(8)	NOT NULL UNIQUE,
 GO
 
 
+CREATE TABLE StallOwner
+(
+OwnerID		varchar(9)		NOT NULL,
+OwnerName	char(100)		NOT NULL,
+OwnerNRIC	varchar(9)		NOT NULL UNIQUE,
+OwnerContactNo	char(8)		NOT NULL UNIQUE,
+	CONSTRAINT PK_StallOwner PRIMARY KEY (OwnerID)
+);
+GO
 
