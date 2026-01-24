@@ -185,3 +185,13 @@ ItemCode	varchar(9)		NOT NULL,
 GO
 
 
+CREATE TABLE CustOrder
+(
+OrderID		varchar(9)		NOT NULL,
+OrderDate	DATE			NOT NULL DEFAULT(GETDATE()),
+PmtType		char			NOT NULL CHECK(PmtType IN ('Cash','Credit Card','PayNow')),
+	CONSTRAINT PK_CustOrder PRIMARY KEY (OrderID)
+);
+GO
+
+
