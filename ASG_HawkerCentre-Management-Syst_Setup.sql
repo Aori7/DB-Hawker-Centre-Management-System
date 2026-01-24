@@ -195,3 +195,20 @@ PmtType		char			NOT NULL CHECK(PmtType IN ('Cash','Credit Card','PayNow')),
 GO
 
 
+CREATE TABLE OrderItem
+(
+OrderID			varchar(9)		NOT NULL,
+OrderItemNo		INT				NOT NULL,
+StallID			varchar(5)		NOT NULL,
+ItemCode		varchar(9)		NOT NULL,
+Quantity		INT				NOT NULL CHECK(Quantity > 0),
+UnitPrice		DECIMAL(6,2)	NOT NULL,
+	CONSTRAINT PK_OrderItem PRIMARY KEY (OrderID,OrderItemNo),
+	CONSTRAINT FK_OrderItem_OrderID
+		FOREIGN KEY (OrderID) REFERENCES CustOrder(OrderID),
+	CONSTRAINT FK_OrderItem_MenuItem
+		FOREIGN KEY (StallID,ItemCode) REFERENCES MenuItem(StallID,ItemCode)
+);
+GO
+
+
