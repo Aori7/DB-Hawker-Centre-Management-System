@@ -52,3 +52,13 @@ OwnerContactNo	char(8)		NOT NULL UNIQUE,
 );
 GO
 
+CREATE TABLE Customer
+(
+CustomerID		varchar(8)		NOT NULL,
+CustNRIC		varchar(9)		NOT NULL UNIQUE,
+CustName		char(100)		NOT NULL,
+CustContactNo	char(8)			NOT NULL UNIQUE,
+CustEmail		varchar(50)		NULL UNIQUE,
+	CONSTRAINT PK_Customer PRIMARY KEY (CustomerID)
+);
+GO
