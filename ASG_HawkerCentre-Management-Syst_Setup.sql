@@ -117,3 +117,17 @@ InspectionRemark	varchar(400)	NOT NULL,
 GO
 
 
+CREATE TABLE Promotion
+(
+PromotionID		varchar(9)		NOT NULL,
+PromoDesc		varchar(150)	NULL,
+PromoStartDate	DATE			NOT NULL DEFAULT(GETDATE()),
+PromoEndDate	DATE			NOT NULL DEFAULT(DATEADD(MONTH,1,GETDATE())),
+StallID			varchar(5)		NOT NULL,
+	CONSTRAINT PK_Promotion PRIMARY KEY (PromotionID),
+	CONSTRAINT FK_Promotion_StallID
+		FOREIGN KEY (StallID) REFERENCES FoodStall(StallID)
+);
+GO
+
+
