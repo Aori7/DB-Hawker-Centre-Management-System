@@ -62,3 +62,17 @@ CustEmail		varchar(50)		NULL UNIQUE,
 	CONSTRAINT PK_Customer PRIMARY KEY (CustomerID)
 );
 GO
+
+
+CREATE TABLE HawkerCentre
+(
+HawkerCentreID		varchar(6)		NOT NULL,
+HCName				varchar(50)		NOT NULL,
+HCAddress			varchar(100)	NOT NULL,
+OperatorID			varchar(7)		NOT NULL,
+	CONSTRAINT PK_HawkerCentre PRIMARY KEY (HawkerCentreID),
+	CONSTRAINT FK_HawkerCentre_OperatorID
+		FOREIGN KEY (OperatorID) REFERENCES Operator(OperatorID)
+);
+GO
+
