@@ -66,3 +66,14 @@ insert into StallOwner VALUES
 ('Owner0009','Joanna Dong','S7865228H'),
 ('Owner0010','Clement Everitt','S7100097G');
 
+insert into Customer VALUES
+('Cust0001', 'T0065789I','Keith Goh', '98723674', 'gohkeith@gmail.com'),
+('Cust0002', 'T0276777G','Rohan Gunaratna','68973927','rgunaratna@gmail.com'),
+('Cust0003', 'S9876553G','Mavis Hee', '87635193', NULL),
+('Cust0004', 'S9561222L', 'Ivan Heng','98753824', 'ivannh@gmail.com'),
+('Cust0005', 'S8683772M','Heng Swee Keat','6813964','hskeat@gmail.com'),
+('Cust0006', 'T0679234I','Christian Ho','98542783',NULL),
+('Cust0007', 'T0878341N','Hoi Kim Heng','87635172','hoikimheng@gmail.com'),
+('Cust0008', 'S8423425P','Hon Sui Sen','68543217','suisen@gmail.com'),
+('Cust0009', 'S9112348A','Indranee Rajah', '89753106','rajahin@gmail.com'),
+('Cust0010', 'S7652498E','Jiang Yanmei', '67913652','yanmeii@gmail.com');
