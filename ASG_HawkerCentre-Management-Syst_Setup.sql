@@ -171,3 +171,17 @@ ItemCategory	char(50)	NOT NULL,
 GO
 
 
+CREATE TABLE MenuItemCuisine
+(
+CuisineID	varchar(7)		NOT NULL,
+StallID		varchar(5)		NOT NULL,
+ItemCode	varchar(9)		NOT NULL,
+	CONSTRAINT PK_MenuItemCuisine PRIMARY KEY (CuisineID,StallID,ItemCode),
+	CONSTRAINT FK_MenuItemCuisine_CuisineID
+		FOREIGN KEY (CuisineID) REFERENCES Cuisine(CuisineID),
+	CONSTRAINT FK_MenuItemCuisine_MenuItem
+		FOREIGN KEY (StallID,ItemCode) REFERENCES MenuItem(StallID,ItemCode)
+);
+GO
+
+
