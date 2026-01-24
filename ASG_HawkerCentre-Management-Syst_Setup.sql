@@ -76,3 +76,16 @@ OperatorID			varchar(7)		NOT NULL,
 );
 GO
 
+CREATE TABLE FoodStall
+(
+StallID			varchar(5)		NOT NULL,
+StallUnitNo		char(3)			NOT NULL,
+StallName		varchar(50)		NOT NULL,
+StallDesc		varchar(400)	NULL,
+HawkerCentreID	varchar(6)		NOT NULL,
+	CONSTRAINT PK_FoodStall PRIMARY KEY (StallID),
+	CONSTRAINT FK_FoodStall_HawkerCentreID
+		FOREIGN KEY (HawkerCentreID) REFERENCES HawkerCentre(HawkerCentreID)
+);
+GO
+
