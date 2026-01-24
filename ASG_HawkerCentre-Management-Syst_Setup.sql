@@ -243,3 +243,12 @@ StallID			varchar(5)		NOT NULL,
 GO
 
 
+CREATE TABLE Complaint
+(
+FbkID		varchar(7)		NOT NULL,
+Category	char(50)		NOT NULL CHECK(Category IN ('Hygiene Level','Service Quality','Food Quality','Others')),
+	CONSTRAINT PK_Complaint PRIMARY KEY (FbkID),
+	CONSTRAINT FK_Complaint_FbkID
+		FOREIGN KEY (FbkID) REFERENCES Feedback(FbkID)
+);
+GO
