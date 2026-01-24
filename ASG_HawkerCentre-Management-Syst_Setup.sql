@@ -226,3 +226,20 @@ ItemCode		varchar(9)		NOT NULL,
 GO
 
 
+CREATE TABLE Feedback
+(
+FbkID			varchar(7)		NOT NULL,
+FbkComment		varchar(255)	NULL,
+FbkDateTime		DATE			NOT NULL DEFAULT(GETDATE()),
+FbkRating		INT				NOT NULL CHECK(FbkRating IN (1,2,3,4,5)),
+CustomerID		varchar(8)		NOT NULL,
+StallID			varchar(5)		NOT NULL,
+	CONSTRAINT PK_Feedback PRIMARY KEY (FbkID),
+	CONSTRAINT FK_Feedback_CustomerID
+		FOREIGN KEY (CustomerID) REFERENCES Customer(CustomerID),
+	CONSTRAINT FK_Feedback_StallID 
+		FOREIGN KEY (StallID) REFERENCES FoodStall(StallID)
+);
+GO
+
+
