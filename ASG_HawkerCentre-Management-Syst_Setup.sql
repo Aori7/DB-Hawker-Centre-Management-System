@@ -157,3 +157,17 @@ CuisineDesc		varchar(255)	NOT NULL,
 GO
 
 
+CREATE TABLE MenuItem
+(
+StallID			varchar(5)		NOT NULL,
+ItemCode		varchar(9)		NOT NULL,
+ItemDesc		varchar(255)	NOT NULL,
+ItemPrice		DECIMAL(6,2)	NOT NULL,
+ItemCategory	char(50)	NOT NULL,
+	CONSTRAINT PK_MenuItem PRIMARY KEY (StallID,ItemCode),
+	CONSTRAINT FK_MenuItem_StallID 
+		FOREIGN KEY (StallID) REFERENCES FoodStall(StallID)
+);
+GO
+
+
