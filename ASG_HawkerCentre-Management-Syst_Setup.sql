@@ -22,6 +22,9 @@ CREATE TABLE table_name
  [,table_constraint {,table_constraint}]
 ); */
 
+use HCManagementSystem;
+GO
+
 CREATE TABLE Operator
 (
 OperatorID		varchar(7) NOT NULL,
