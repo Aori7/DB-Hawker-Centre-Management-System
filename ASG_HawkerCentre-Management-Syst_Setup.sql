@@ -212,3 +212,17 @@ UnitPrice		DECIMAL(6,2)	NOT NULL,
 GO
 
 
+CREATE TABLE Likes
+(
+CustomerID		varchar(8)		NOT NULL,
+StallID			varchar(5)		NOT NULL,
+ItemCode		varchar(9)		NOT NULL,
+	CONSTRAINT PK_Likes PRIMARY KEY (CustomerID,StallID,ItemCode),
+	CONSTRAINT FK_Likes_CustomerID
+		FOREIGN KEY (CustomerID) REFERENCES Customer(CustomerID),
+	CONSTRAINT FK_Likes_MenuItem
+		FOREIGN KEY (StallID,ItemCode) REFERENCES MenuItem(StallID,ItemCode)
+);
+GO
+
+
