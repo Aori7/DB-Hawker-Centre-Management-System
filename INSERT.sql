@@ -77,3 +77,20 @@ insert into Customer VALUES
 ('Cust0008', 'S8423425P','Hon Sui Sen','68543217','suisen@gmail.com'),
 ('Cust0009', 'S9112348A','Indranee Rajah', '89753106','rajahin@gmail.com'),
 ('Cust0010', 'S7652498E','Jiang Yanmei', '67913652','yanmeii@gmail.com');
+
+insert into HawkerCentre VALUES
+('HC0001', 'Maxwell Food Centre', '1 Kadayanallur Street 069184', 'OID0001'),
+('HC0002', 'Chinatown Complex Market & Food Centre', '335 Smith Street 050335', 'OID0002'),
+('HC0003', 'Tiong Bahru Market', '30 Seng Poh Road 168898', 'OID0001'),
+('HC0004', 'Old Airport Road Food Centre', '51 Old Airport Road 390051', 'OID0004'),
+('HC0005', 'Tekka Centre', '665 Buffalo Road 210665', 'OID0001'),
+('HC0006', 'Amoy Street Food Centre', '7 Maxwell Road 069111', 'OID0004'),
+('HC0007', 'Lau Pa Sat', '18 Raffles Quay 048582', 'OID0005'),
+('HC0008', 'Golden Mile Food Centre', '505 Beach Road 199583', 'OID0002'),
+('HC0009', 'Changi Village Hawker Centre', '2 Changi Village Road 500002', 'OID0005'),
+('HC0010', 'Bedok Interchange Hawker Centre', '216 Bedok North Street 1 460216', 'OID0003'),
+('HC0011', 'Bukit Timah Market', '51 Upper Bukit Timah Road 588172', 'OID0003'),
+('HC0012', 'Geylang Serai Market', '1 Geylang Serai 402001', 'OID0001'),
+('HC0013', 'Hong Lim Market & Food Centre', '531A Upper Cross Street 051531', 'OID0001'),
+('HC0014', 'Yishun Park Hawker Centre', '51 Yishun Ring Road 768681', 'OID0005'),
+('HC0015', 'One Punggol Hawker Centre', '1 Punggol Drive 828629', 'OID0002');
