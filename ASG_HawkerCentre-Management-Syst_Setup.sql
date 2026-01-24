@@ -131,3 +131,20 @@ StallID			varchar(5)		NOT NULL,
 GO
 
 
+CREATE TABLE RentalAgreement
+(
+AgreementID			varchar(7)		NOT NULL,
+AgrStartDate		DATE			NOT NULL DEFAULT(GETDATE()),
+AgrEndDate			DATE			NOT NULL DEFAULT(DATEADD(YEAR,1,GETDATE())),
+AgrTermCondition	varchar(255)	NOT NULL,
+OwnerID				varchar(9)		NOT NULL,
+StallID				varchar(5)		NOT NULL,
+	CONSTRAINT PK_RentalAgreement PRIMARY KEY (AgreementID),
+	CONSTRAINT FK_RentalAgreement_OwnerID
+		FOREIGN KEY (OwnerID) REFERENCES StallOwner(OwnerID),
+	CONSTRAINT FK_RentalAgreement_StallID
+		FOREIGN KEY (StallID) REFERENCES FoodStall(StallID)
+);
+GO
+
+
