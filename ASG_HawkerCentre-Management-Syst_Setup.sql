@@ -148,3 +148,12 @@ StallID				varchar(5)		NOT NULL,
 GO
 
 
+CREATE TABLE Cuisine
+(
+CuisineID		varchar(7)		NOT NULL,
+CuisineDesc		varchar(255)	NOT NULL,
+	CONSTRAINT PK_Cuisine PRIMARY KEY (CuisineID)
+);
+GO
+
+
