@@ -32,5 +32,14 @@ ContactPerson	char(50)	NOT NULL,
 GO
 
 
+CREATE TABLE NEA_Officer
+(
+OfficerID			varchar(6)	NOT NULL,
+OfficerName			char(50)	NOT NULL,
+OfficerContactNo	char(8)	NOT NULL UNIQUE,
+	CONSTRAINT PK_NEA_Officer PRIMARY KEY (OfficerID)
+);
+GO
+
 
 
