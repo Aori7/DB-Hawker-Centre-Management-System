@@ -106,3 +106,14 @@ StallID			varchar(5)		NOT NULL,
 GO
 
 
+CREATE TABLE InspectionRemark
+(
+InspectionID		varchar(6)		NOT NULL,
+InspectionRemark	varchar(400)	NOT NULL,
+	CONSTRAINT PK_InspectionRemark PRIMARY KEY (InspectionID,InspectionRemark),
+	CONSTRAINT FK_InspectionRemark_InspectionID
+		FOREIGN KEY (InspectionID) REFERENCES Inspection(InspectionID)
+);
+GO
+
+
