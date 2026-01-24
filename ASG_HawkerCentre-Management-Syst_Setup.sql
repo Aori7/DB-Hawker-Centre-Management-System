@@ -89,3 +89,20 @@ HawkerCentreID	varchar(6)		NOT NULL,
 );
 GO
 
+CREATE TABLE Inspection
+(
+InspectionID	varchar(6)		NOT NULL,
+InspectionDate	DATE			NOT NULL DEFAULT(GETDATE()),
+HygieneGrade	char(1)			NOT NULL CHECK(HygieneGrade IN ('A','B','C','D')),
+GradeExpiry		DATE			NOT NULL DEFAULT(DATEADD(YEAR, 5, GETDATE())),
+OfficerID		varchar(6)		NOT NULL,
+StallID			varchar(5)		NOT NULL,
+	CONSTRAINT PK_Inspection PRIMARY KEY (InspectionID),
+	CONSTRAINT FK_Inspection_OfficerID
+		FOREIGN KEY (OfficerID) REFERENCES NEA_Officer(OfficerID),
+	CONSTRAINT FK_Inspection_StallID
+		FOREIGN KEY (StallID) REFERENCES FoodStall(StallID)
+);
+GO
+
+
