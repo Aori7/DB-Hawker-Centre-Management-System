@@ -94,3 +94,24 @@ insert into HawkerCentre VALUES
 ('HC0013', 'Hong Lim Market & Food Centre', '531A Upper Cross Street 051531', 'OID0001'),
 ('HC0014', 'Yishun Park Hawker Centre', '51 Yishun Ring Road 768681', 'OID0005'),
 ('HC0015', 'One Punggol Hawker Centre', '1 Punggol Drive 828629', 'OID0002');
+
+insert into FoodStall VALUES
+('F0001','A01','Ayam Penyet Ria','Delicious Ayam Penyet','HC0001'),
+('F0002','A02','Ah Tai Chicken Rice','Michelin Bib Gourmand stall','HC0001'),
+('F0003','B01','Liao Fan Hawker Chan','Soya sauce chicken rice','HC0002'),
+('F0004','B02','Zhong Guo La Mian','Handmade Chinese noodles','HC0002'),
+('F0005','C01','Jian Bo Shui Kueh','Steamed rice cake','HC0003'),
+('F0006','C02','Lee Hong Kee Cantonese Roasted',NULL,'HC0003'),
+('FS007','D01','Nam Sing Hokkien Fried Mee','Charcoal fried hokkien mee','HC0004'),
+('FS008','E02','Sri Madura Veeran','South Indian vegetarian food','HC0005'),
+('FS009','F01','A Noodle Story','Singapore-style ramen','HC0006'),
+('FS010','G01','Satay Street','Grilled satay skewers','HC0007'),
+('FS011','H01','Hainanese Curry Rice','Pork chop curry rice','HC0008'),
+('FS012','I02','Mizzy Corner','Western food','HC0009'),
+('FS013','J02','Sin Kee Famous Chicken Rice',NULL,'HC0010'),
+('FS014','K02','Che Ah Coffee Shop','Local kopi stall','HC0011'),
+('FS015','L02','Hajah Maimunah','Traditional Malay dishes','HC0012'),
+('FS016','M03','Tian Tian Dessert House','Traditional desserts','HC0013'),
+('FS017','N03','Uncle Penyet','Indonesian ayam penyet','HC0014'),
+('FS018','P04','Laksa Express','Spicy laksa bowls','HC0015'),
+('FS019','P05','Kopi Kiosk','Coffee & toast','HC0015');
