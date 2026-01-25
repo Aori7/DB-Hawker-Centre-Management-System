@@ -150,3 +150,15 @@ insert into InspectionRemark VALUES
 ('IS0004','Immediate cleaning action required.');
 
 
+insert into Promotion VALUES
+('PROMO0001', '10% off Ayam Penyet Set', '2024-01-10', '2024-02-10', 'F0001'),
+('PROMO0002', 'Free drink with chicken rice', '2024-02-01', '2024-02-28', 'F0002'),
+('PROMO0003', 'CNY Special Combo', '2024-02-05', '2024-02-20', 'F0003'),
+('PROMO0004', 'Noodle Festival Deal', '2024-03-01', '2024-03-31', 'F0004'),
+('PROMO0005', 'breakfast Discount', '2024-03-15', '2024-04-15', 'F0005'),
+('PROMO0006', 'Ramadan Promotion', '2024-03-10', '2024-04-10', 'FS015'),
+('PROMO0007', 'Lunch Hour Promo', '2024-04-01', '2024-04-30', 'FS009'),
+('PROMO0008', 'Hari Raya Special', '2024-04-08', '2024-04-22', 'FS017'),
+('PROMO0009', 'weekend Satay Deal', '2024-05-01', '2024-05-31', 'FS010'),
+('PROMO0010', 'student discount', '2024-05-01', '2024-05-31', 'FS015'),
+('PROMO0011', 'dessert buy 2 get 1 free!', '2024-06-01', '2024-06-30', 'FS016');
