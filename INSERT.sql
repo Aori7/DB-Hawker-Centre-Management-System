@@ -115,3 +115,38 @@ insert into FoodStall VALUES
 ('FS017','N03','Uncle Penyet','Indonesian ayam penyet','HC0014'),
 ('FS018','P04','Laksa Express','Spicy laksa bowls','HC0015'),
 ('FS019','P05','Kopi Kiosk','Coffee & toast','HC0015');
+
+insert into Inspection VALUES
+('IS0001','2021-03-15','A','2026-03-15','NEA001','F0001'),
+('IS0002','2021-06-20','B','2026-06-20','NEA002','F0002'),
+('IS0003','2022-01-10','A','2027-01-10','NEA003','F0003'),
+('IS0004','2022-04-05','C','2027-04-05','NEA004','F0004'),
+('IS0005','2022-09-18','B','2027-09-18','NEA005','F0005'),
+('IS0006','2023-02-12','A','2028-02-12','NEA006','F0006'),
+('IS0007','2023-05-30','D','2028-05-30','NEA007','FS007'),
+('IS0008','2023-07-14','B','2028-07-14','NEA008','FS008'),
+('IS0009','2023-10-09','A','2028-10-09','NEA009','FS009'),
+('IS0010','2024-01-22','B','2029-01-22','NEA010','FS010'),
+('IS0011','2024-03-17','A','2029-03-17','NEA001','FS011'),
+('IS0012','2024-05-06','C','2029-05-06','NEA002','FS012'),
+('IS0013','2024-07-19','B','2029-07-19','NEA003','FS013'),
+('IS0014','2024-09-01','A','2029-09-01','NEA004','FS014'),
+('IS0015','2024-11-11','B','2029-11-11','NEA005','FS015'),
+('IS0016','2025-01-08','A','2030-01-08','NEA006','FS016'),
+('IS0017','2025-02-16','C','2030-02-16','NEA007','FS017'),
+('IS0018','2025-03-03','B','2030-03-03','NEA008','FS018'),
+('IS0019','2025-03-21','A','2030-03-21','NEA009','FS019');
+
+insert into InspectionRemark VALUES
+('IS0017','Waste bins uncovered and overflowing'),
+('IS0007','Serious cleanliness issues found in washing area'),
+('IS0016','Excellent stall maintenance and hygiene'),
+('IS0019','stall meets minimum hygiene requirements'),
+('IS0002','Improvement needed in waste disposal practices'),
+('IS0002','Minor oil stains found near cooking area'),
+('IS0007','Found insects in the kitchen'),
+('IS0012','Grease buildup found on exhaust hood. needs to be cleaned'),
+('IS0014','staff trained in proper food handling procedures. good job'),
+('IS0004','Immediate cleaning action required.');
+
+
