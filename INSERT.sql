@@ -162,3 +162,5 @@ insert into Promotion VALUES
 ('PROMO0009', 'weekend Satay Deal', '2024-05-01', '2024-05-31', 'FS010'),
 ('PROMO0010', 'student discount', '2024-05-01', '2024-05-31', 'FS015'),
 ('PROMO0011', 'dessert buy 2 get 1 free!', '2024-06-01', '2024-06-30', 'FS016');
+
+-- temp line
