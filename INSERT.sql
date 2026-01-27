@@ -105,18 +105,18 @@ insert into FoodStall VALUES
 ('F0005','C01','Jian Bo Shui Kueh','Steamed rice cake','HC0003'),
 ('F0006','C02','Lee Hong Kee Cantonese Roasted',NULL,'HC0003'),
 ('FS007','D01','Nam Sing Hokkien Fried Mee','Charcoal fried hokkien mee','HC0004'),
-('FS008','E02','Sri Madura Veeran','South Indian vegetarian food','HC0005'),
-('FS009','F01','A Noodle Story','Singapore-style ramen','HC0006'),
-('FS010','G01','Satay Street','Grilled satay skewers','HC0007'),
-('FS011','H01','Hainanese Curry Rice','Pork chop curry rice','HC0008'),
-('FS012','I02','Mizzy Corner','Western food','HC0009'),
-('FS013','J02','Sin Kee Famous Chicken Rice',NULL,'HC0010'),
-('FS014','K02','Che Ah Coffee Shop','Local kopi stall','HC0011'),
-('FS015','L02','Hajah Maimunah','Traditional Malay dishes','HC0012'),
-('FS016','M03','Tian Tian Dessert House','Traditional desserts','HC0013'),
-('FS017','N03','Uncle Penyet','Indonesian ayam penyet','HC0014'),
-('FS018','P04','Laksa Express','Spicy laksa bowls','HC0015'),
-('FS019','P05','Kopi Kiosk','Coffee & toast','HC0015');
+('F0008','E02','Sri Madura Veeran','South Indian vegetarian food','HC0005'),
+('F0009','F01','A Noodle Story','Singapore-style ramen','HC0006'),
+('F0010','G01','Satay Street','Grilled satay skewers','HC0007'),
+('F0011','H01','Hainanese Curry Rice','Pork chop curry rice','HC0008'),
+('F0012','I02','Mizzy Corner','Western food','HC0009'),
+('F0013','J02','Sin Kee Famous Chicken Rice',NULL,'HC0010'),
+('F0014','K02','Che Ah Coffee Shop','Local kopi stall','HC0011'),
+('F0015','L02','Hajah Maimunah','Traditional Malay dishes','HC0012'),
+('F0016','M03','Tian Tian Dessert House','Traditional desserts','HC0013'),
+('F0017','N03','Uncle Penyet','Indonesian ayam penyet','HC0014'),
+('F0018','P04','Laksa Express','Spicy laksa bowls','HC0015'),
+('F0019','P05','Kopi Kiosk','Coffee & toast','HC0015');
 
 insert into Inspection VALUES
 ('IS0001','2021-03-15','A','2026-03-15','NEA001','F0001'),
@@ -164,6 +164,3 @@ insert into Promotion VALUES
 ('PROMO0009', 'weekend Satay Deal', '2024-05-01', '2024-05-31', 'FS010'),
 ('PROMO0010', 'student discount', '2024-05-01', '2024-05-31', 'FS015'),
 ('PROMO0011', 'dessert buy 2 get 1 free!', '2024-06-01', '2024-06-30', 'FS016');
-
--- temp line
--- temp line 2
