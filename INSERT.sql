@@ -426,3 +426,33 @@ insert into CustOrder VALUES
 ('ORDER-038',DEFAULT,'Cash'),
 ('ORDER-039',DEFAULT,'Credit Card'),
 ('ORDER-040',DEFAULT,'Credit Card');
+
+
+-- Done by Ada
+
+
+
+
+-- Done by Calista
+insert into Feedback VALUES
+('FBK-001','Food was tasty and well cooked','2024-01-15 12:30:00',5,'CUST-001','FS-03'),
+('FBK-002','Service was fast and friendly','2024-01-18 18:45:00', 4,'CUST-010','FS-09'),
+('FBK-003','Portion size could be bigger','2024-02-02 13:10:00', 3,'CUST-003','FS-08'),
+('FBK-004','Very affordable and delicious','2024-02-15 12:00:00', 5,'CUST-009','FS-02'),
+('FBK-005','Queue was too long during lunch','2024-02-15 19:55:00',3,'CUST-005','FS-01'),
+('FBK-006','Taste was average','2024-03-10 11:30:00',3,'CUST-008','FS-10'),
+('FBK-007','Too salty for my liking','2024-03-20 13:50:00',2,'CUST-003','FS-07'),
+('FBK-008','Great value for money','2024-04-01 12:15:00',5,'CUST-001','FS-03'),
+('FBK-009','Waiting time was reasonable','2024-05-05 18:30:00',4,'CUST-002','FS-06'),
+('FBK-010','Food presentation was good','2024-05-10 19:10:00',4,'CUST-010','FS-04'),
+('FBK-011','Not as good as expected','2024-05-15 14:45:00',3,'CUST-007','FS-05'),
+('FBK-012','Excellent taste and quality','2024-06-01 13:25:00',5,'CUST-006','FS-11'),
+('FBK-013','Would come back again','2024-06-08 18:55:00',5,'CUST-001', 'FS-13'),
+('FBK-014','Food took too long to arrive','2024-06-10 12:40:00',1,'CUST-004','FS-12'),
+('FBK-015','Good variety of options','2024-06-15 19:20:00',4,'CUST-010','FS-14'),
+('FBK-016','Average experience overall','2024-07-20 13:00:00',3,'CUST-003','FS-15'),
+('FBK-017','Highly recommended stall','2024-07-25 18:10:00',5,'CUST-002','FS-16'),
+('FBK-018','Not worth the price','2024-08-15 11:05:00',2,'CUST-008','FS-18'),
+('FBK-019','Really long waiting time','2024-08-28 21:00:00',1,'CUST-007','FS-19 '),
+('FBK-020','It is so good, worth trying','2024-09-20 19:05:00',5,'CUST-002','FS-17'),
+('FBK-021','Staff were very polite','2024-10-15 20:05:00',5,'CUST-009','FS-01');
