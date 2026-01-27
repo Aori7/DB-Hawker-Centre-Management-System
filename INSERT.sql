@@ -85,7 +85,7 @@ insert into Customer VALUES
 ('CUST-001', 'T0065789I','Keith Goh', '98723674', 'gohkeith@gmail.com'),
 ('CUST-002', 'T0276777G','Rohan Gunaratna','68973927','rgunaratna@gmail.com'),
 ('CUST-003', 'S9876553G','Mavis Hee', '87635193', NULL),
-('CUST0004', 'S9561222L', 'Ivan Heng','98753824', 'ivannh@gmail.com'),
+('CUST-004', 'S9561222L', 'Ivan Heng','98753824', 'ivannh@gmail.com'),
 ('CUST-005', 'S8683772M','Heng Swee Keat','6813964','hskeat@gmail.com'),
 ('CUST-006', 'T0679234I','Christian Ho','98542783',NULL),
 ('CUST-007', 'T0878341N','Hoi Kim Heng','87635172','hoikimheng@gmail.com'),
@@ -180,7 +180,7 @@ insert into Promotion VALUES
 ('PROMO-008', 'Hari Raya Special', '2024-07-08', '2024-07-22', 'FS-17'),
 ('PROMO-009', 'weekend Satay Deal', '2024-05-01', '2024-05-31', 'FS-10'),
 ('PROMO-010', 'student discount', '2024-08-01', '2024-08-31', 'FS-15'),
-('PROMO-011', 'dessert buy 2 get 1 free!', '2024-06-30', '2024-07-30', 'FS-16');
+('PROMO-011', 'dessert buy 2 get 1 free!', '2024-06-30', '2024-07-29', 'FS-16');
 
 
 -- Done by Rui Min
@@ -206,23 +206,23 @@ insert into RentalAgreement VALUES
 ('AGR-019','2024-07-13','2025-07-12','Rental contract detailing stall usage, payments, and compliance requirements','OWN-019','FS-19'),
 
 /* CURRENT (active in 2026)*/
-('AGR-021','2025-01-08','2026-01-07','Defines the rights and responsibilities of vendors renting a food stall.','OWN-001','FS-01'),
-('AGR-022','2025-01-15','2026-01-14','Defines the rights and responsibilities of vendors renting a food stall.','OWN-002','FS-02'),
-('AGR-023','2025-01-22','2026-01-21','Defines the rights and responsibilities of vendors renting a food stall.','OWN-003','FS-03'),
-('AGR-024','2025-01-21','2026-01-20','Defines the rights and responsibilities of vendors renting a food stall.','OWN-004','FS-04'),
-('AGR-025','2025-01-28','2026-01-27','Defines the rights and responsibilities of vendors renting a food stall.','OWN-005','FS-05'),
+('AGR-020','2025-01-08','2026-01-07','Defines the rights and responsibilities of vendors renting a food stall.','OWN-001','FS-01'),
+('AGR-021','2025-01-15','2026-01-14','Defines the rights and responsibilities of vendors renting a food stall.','OWN-002','FS-02'),
+('AGR-022','2025-01-22','2026-01-21','Defines the rights and responsibilities of vendors renting a food stall.','OWN-003','FS-03'),
+('AGR-023','2025-01-21','2026-01-20','Defines the rights and responsibilities of vendors renting a food stall.','OWN-004','FS-04'),
+('AGR-024','2025-01-28','2026-01-27','Defines the rights and responsibilities of vendors renting a food stall.','OWN-005','FS-05'),
 
-('AGR-026','2025-02-15','2026-02-14','Agreement covering stall rental conditions and operational requirements','OWN-006','FS-06'),
-('AGR-027','2025-02-25','2026-02-24','Agreement covering stall rental conditions and operational requirements','OWN-007','FS-07'),
-('AGR-028','2025-03-03','2026-03-02','Agreement covering stall rental conditions and operational requirements','OWN-008','FS-08'),
-('AGR-029','2025-03-17','2026-03-16','Outlines rental obligations for vendors operating food stalls in the hawker centre','OWN-009','FS-09'),
-('AGR-030','2025-03-21','2026-03-20','Outlines rental obligations for vendors operating food stalls in the hawker centre','OWN-010','FS-10'),
-('AGR-031','2025-03-29','2026-03-28','Outlines rental obligations for vendors operating food stalls in the hawker centre','OWN-011','FS-11'),
-('AGR-032','2025-04-02','2026-04-01','Outlines rental obligations for vendors operating food stalls in the hawker centre','OWN-012','FS-12'),
-('AGR-033','2025-04-14','2026-04-13','Agreement between the operator and vendor for stall rental within the hawker centre','OWN-013','FS-13'),
-('AGR-034','2025-04-17','2026-04-16','Agreement between the operator and vendor for stall rental within the hawker centre','OWN-014','FS-14'),
-('AGR-035','2025-05-25','2026-05-24','Agreement between the operator and vendor for stall rental within the hawker centre','OWN-015','FS-15'),
-('AGR-036','2025-06-04','2026-06-03','Sets out the terms for leasing and using a hawker food stall','OWN-016','FS-16'),
-('AGR-037','2025-06-24','2026-06-23','Sets out the terms for leasing and using a hawker food stall','OWN-017','FS-17'),
-('AGR-038','2025-06-30','2026-06-29','Sets out the terms for leasing and using a hawker food stall','OWN-018','FS-18'),
-('AGR-039','2025-07-13','2026-07-12','Defines the rights and responsibilities of vendors renting a food stall','OWN-019','FS-19');
+('AGR-025','2025-02-15','2026-02-14','Agreement covering stall rental conditions and operational requirements','OWN-006','FS-06'),
+('AGR-026','2025-02-25','2026-02-24','Agreement covering stall rental conditions and operational requirements','OWN-007','FS-07'),
+('AGR-027','2025-03-03','2026-03-02','Agreement covering stall rental conditions and operational requirements','OWN-008','FS-08'),
+('AGR-028','2025-03-17','2026-03-16','Outlines rental obligations for vendors operating food stalls in the hawker centre','OWN-009','FS-09'),
+('AGR-029','2025-03-21','2026-03-20','Outlines rental obligations for vendors operating food stalls in the hawker centre','OWN-010','FS-10'),
+('AGR-030','2025-03-29','2026-03-28','Outlines rental obligations for vendors operating food stalls in the hawker centre','OWN-011','FS-11'),
+('AGR-031','2025-04-02','2026-04-01','Outlines rental obligations for vendors operating food stalls in the hawker centre','OWN-012','FS-12'),
+('AGR-032','2025-04-14','2026-04-13','Agreement between the operator and vendor for stall rental within the hawker centre','OWN-013','FS-13'),
+('AGR-033','2025-04-17','2026-04-16','Agreement between the operator and vendor for stall rental within the hawker centre','OWN-014','FS-14'),
+('AGR-034','2025-05-25','2026-05-24','Agreement between the operator and vendor for stall rental within the hawker centre','OWN-015','FS-15'),
+('AGR-035','2025-06-04','2026-06-03','Sets out the terms for leasing and using a hawker food stall','OWN-016','FS-16'),
+('AGR-036','2025-06-24','2026-06-23','Sets out the terms for leasing and using a hawker food stall','OWN-017','FS-17'),
+('AGR-037','2025-06-30','2026-06-29','Sets out the terms for leasing and using a hawker food stall','OWN-018','FS-18'),
+('AGR-038','2025-07-13','2026-07-12','Defines the rights and responsibilities of vendors renting a food stall','OWN-019','FS-19');
