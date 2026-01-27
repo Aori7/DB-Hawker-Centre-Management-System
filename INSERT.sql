@@ -66,7 +66,17 @@ insert into StallOwner VALUES
 ('OWN-007','Michelle Chong','S6865389P','65513422'),
 ('OWN-008','S Dhanabalan','T0053868N','97712232'),
 ('OWN-009','Joanna Dong','S7865228H','98888333'),
-('OWN-010','Clement Everitt','S7100097G','91111200');
+('OWN-010','Clement Everitt','S7100097G','91111200'),
+('OWN-011','Tan Wei Ming','S8234567A','91234567'),
+('OWN-012','Lim Pei Xuan','S8345678B','92345678'),
+('OWN-013','Muhammad Firdaus','S8456789C','93456789'),
+('OWN-014','Nur Aisyah','S8567890D','94567890'),
+('OWN-015','Koh Jun Jie','S8678901E','95678901'),
+('OWN-016','Ng Yi Ling','S8789012F','96789012'),
+('OWN-017','Arun Kumar','S8890123G','97890123'),
+('OWN-018','Siti Aminah','S8901234H','98901234'),
+('OWN-019','Jason Tan','S9012345I','90012345');
+
 
 insert into Customer VALUES
 ('CUST-001', 'T0065789I','Keith Goh', '98723674', 'gohkeith@gmail.com'),
@@ -149,7 +159,7 @@ insert into InspectionRemark VALUES
 ('IN-007','Found insects in the kitchen'),
 ('IN-012','Grease buildup found on exhaust hood. needs to be cleaned'),
 ('IN-014','staff trained in proper food handling procedures. good job'),
-('IN-004','Immediate cleaning action required.');
+('IN-015','Immediate cleaning action required.');
 
 
 insert into Promotion VALUES
@@ -169,6 +179,7 @@ insert into Promotion VALUES
 -- Done by Rui Min
 insert into RentalAgreement VALUES
 --('RentalAgreementID', '2024-01-05', '2025-01-05', 'Agreement outlining the rental terms for a food stall within a hawker centre', 'ownerID', 'stallID'),
+
 /*01*/
 ('AGR-001', '2024-01-05', '2025-01-05', 'Agreement outlining the rental terms for a food stall within a hawker centre.', '', ''),
 ('AGR-002', '2024-01-05', '2025-01-05', 'Agreement outlining the rental terms for a food stall within a hawker centre.', '', ''),
@@ -196,7 +207,6 @@ insert into RentalAgreement VALUES
 /*07*/
 ('AGR-019', '2024-07-13', '2025-07-13', 'Rental contract detailing stall usage, payments, and compliance requirements', '', ''),
 ('AGR-020', '2024-07-13', '2025-05-13', 'Rental contract detailing stall usage, payments, and compliance requirements', '', ''),
-('RentalAgreementID', '2025-01-05', '2026-01-05', 'Agreement outlining the rental terms for a food stall within a hawker centre', 'ownerID', 'stallID'),
 /*01 - 2026*/
 ('AGR-021', '2025-01-05', '2026-01-05', 'Defines the rights and responsibilities of vendors renting a food stall.', '', ''),
 ('AGR-022', '2025-01-05', '2026-01-05', 'Defines the rights and responsibilities of vendors renting a food stall.', '', ''),
