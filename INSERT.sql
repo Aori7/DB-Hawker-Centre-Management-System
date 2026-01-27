@@ -249,3 +249,63 @@ insert into Cuisine VALUES
 ('C018', 'Fusion (halal)'),
 ('C019', 'Fusion (non-halal)'),
 ('C020', 'Arab');
+
+-- Done by Dayana
+insert into MenuItem Values
+-- FS-01 Ayam Penyet Ria
+('FS-01','ITEM-01','Chicken marinated in sweet soy sauce and spices, flame-grilled',11.50,'Main'),
+('FS-01','ITEM-02','Deep-fried chicken smashed with crispy crumbs, tofu, tempeh and sambal',12.50,'Main'),
+('FS-01','ITEM-03','Fried prawns with rice and sambal',10.50,'Main'),
+-- FS-02 Ah Tai Chicken Rice
+('FS-02','ITEM-04','Poached chicken served with fragrant rice, chilli and dark soy sauce',6.50,'Main'),
+('FS-02','ITEM-05','Roasted chicken served with seasoned chicken rice',6.00,'Main'),
+-- FS-03 Liao Fan Hawker Chan
+('FS-03','ITEM-06','Stir-fried seasonal greens',7.00,'Side'),
+('FS-03','ITEM-07','Half portion of signature soy-sauce chicken',21.00,'Add-On'),
+-- FS-04 Zhong Guo La Mian
+('FS-04','ITEM-08','Hand-pulled noodles with beef broth',7.00,'Main'),
+('FS-04','ITEM-09','Hot Chinese tea',1.50,'Drink'),
+('FS-04','ITEM-10','Canned beverage',2.00,'Drink'),
+-- FS-05 Jian Bo Shui Kueh
+('FS-05','ITEM-11','Rice cakes with chai poh and chilli',4.00,'Main'),
+('FS-05','ITEM-12','Additional preserved radish topping',1.00,'Add-On'),
+-- FS-06 Lee Hong Kee Roasted
+('FS-06','ITEM-13','Roasted duck served with noodles',6.50,'Main'),
+('FS-06','ITEM-14','Steamed white rice',1.00,'Side'),
+-- FS-07 Nam Sing Hokkien Mee
+('FS-07','ITEM-15','Fried noodles with prawns and egg',5.00,'Main'),
+('FS-07','ITEM-16','Additional prawns topping',2.00,'Add-On'),
+-- FS-08 Sri Madura Veeran (Indian)
+('FS-08','ITEM-17','Spiced basmati rice with chicken',6.00,'Main'),
+('FS-08','ITEM-18','Spicy chicken curry',4.00,'Main'),
+('FS-08','ITEM-19','Dry spiced chicken',5.10,'Main'),
+('FS-08','ITEM-20','Pulled milk tea',1.50,'Drink'),
+-- FS-09 A Noodle Story
+('FS-09','ITEM-21','Soft noodles in soy-based broth with pork slices',10.00,'Main'),
+('FS-09','ITEM-22','Chicken noodles in light broth',9.50,'Main'),
+-- FS-10 Satay Street
+('FS-10','ITEM-23','Grilled marinated chicken skewers',6.00,'Main'),
+('FS-10','ITEM-24','Grilled marinated beef skewers',7.00,'Main'),
+-- FS-11 Hainanese Curry Rice
+('FS-11','ITEM-25','Rice with crispy pork chop and curry gravy',4.50,'Main'),
+-- FS-12 Mizzy Corner (Western)
+('FS-12','ITEM-26','Grilled chicken chop with black pepper sauce',8.50,'Main'),
+('FS-12','ITEM-27','Fish and chips with tartar sauce',9.00,'Main'),
+-- FS-13 Sin Kee Chicken Rice
+('FS-13','ITEM-28','Soy-braised egg',1.00,'Side'),
+('FS-13','ITEM-29','Chicken innards side dish',4.30,'Side'),
+-- FS-14 Che Ah Coffee Shop
+('FS-14','ITEM-30','Black local coffee (kopi-o)',1.60,'Drink'),
+('FS-14','ITEM-31','Local milk tea (teh)',2.20,'Drink'),
+-- FS-15 Hajah Maimunah (Malay)
+('FS-15','ITEM-32','Slow-cooked braised beef in rich Malay spices',15.70,'Main'),
+-- FS-16 Tian Tian Dessert House
+('FS-16','ITEM-33','Chendol with gula melaka and coconut milk',3.50,'Dessert'),
+('FS-16','ITEM-34','Ice kacang with red bean and jelly',4.00,'Dessert'),
+-- FS-17 Uncle Penyet
+('FS-17','ITEM-35','Crispy dory fish with rice and sambal',9.50,'Main'),
+-- FS-18 Laksa Express
+('FS-18','ITEM-36','Laksa noodles in spicy coconut broth with prawns and egg',9.50,'Main'),
+-- FS-19 Kopi Kiosk
+('FS-19','ITEM-37','Coffee with evaporated milk',2.80,'Drink'),
+('FS-19','ITEM-38','Black tea (no milk)',2.10,'Drink');
