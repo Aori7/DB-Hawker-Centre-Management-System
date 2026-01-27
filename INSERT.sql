@@ -226,3 +226,26 @@ insert into RentalAgreement VALUES
 ('AGR-036','2025-06-24','2026-06-23','Sets out the terms for leasing and using a hawker food stall','OWN-017','FS-17'),
 ('AGR-037','2025-06-30','2026-06-29','Sets out the terms for leasing and using a hawker food stall','OWN-018','FS-18'),
 ('AGR-038','2025-07-13','2026-07-12','Defines the rights and responsibilities of vendors renting a food stall','OWN-019','FS-19');
+
+-- Done by Rui Min
+insert into Cuisine VALUES
+('C001', 'Japanese'),
+('C002', 'Vegetarian'),
+('C003', 'Malay'),
+('C004', 'Chinese'),
+('C005', 'Indonesian'),
+('C006', 'Western'),
+('C007', 'Indian'),
+('C008', 'Italian'),
+('C009', 'French'),
+('C010', 'Mexican'),
+('C011', 'Vietnamese'),
+('C012', 'Thai'),
+('C013', 'Middle Eastern'),
+('C014', 'Peranakan'),
+('C015', 'Seafood'),
+('C016', 'Korean (halal)'),
+('C017', 'Korean (non-halal)'),
+('C018', 'Fusion (halal)'),
+('C019', 'Fusion (non-halal)'),
+('C020', 'Arab');
