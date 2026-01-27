@@ -526,3 +526,16 @@ insert into Feedback VALUES
 ('FBK-019','Really long waiting time','2024-08-28 21:00:00',1,'CUST-007','FS-19 '),
 ('FBK-020','It is so good, worth trying','2024-09-20 19:05:00',5,'CUST-002','FS-17'),
 ('FBK-021','Staff were very polite','2024-10-15 20:05:00',5,'CUST-009','FS-01');
+
+-- Done by Ada
+insert into Complaint VALUES
+('FBK-007','Food quality'),       
+('FBK-018','Food quality'),      
+('FBK-003','Food quality'),  
+('FBK-005','Service quality'),     
+('FBK-014','Service quality'),     
+('FBK-019','Service quality'),
+('FBK-002','Hygiene level'),      
+('FBK-006','Hygiene level'),   
+('FBK-011','Others'),           
+('FBK-016','Others');  
