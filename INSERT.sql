@@ -166,3 +166,4 @@ insert into Promotion VALUES
 ('PROMO0011', 'dessert buy 2 get 1 free!', '2024-06-01', '2024-06-30', 'FS016');
 
 -- temp line
+-- temp line 2
