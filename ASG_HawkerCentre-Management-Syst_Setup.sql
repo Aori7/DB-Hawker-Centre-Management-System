@@ -192,7 +192,7 @@ CREATE TABLE CustOrder
 (
 OrderID		varchar(9)		NOT NULL,
 OrderDate	DATE			NOT NULL DEFAULT(GETDATE()),
-PmtType		char			NOT NULL CHECK(PmtType IN ('Cash','Credit Card','PayNow')),
+PmtType		char(20)		NOT NULL CHECK(PmtType IN ('Cash','Credit Card','PayNow')),
 	CONSTRAINT PK_CustOrder PRIMARY KEY (OrderID)
 );
 GO
@@ -233,7 +233,7 @@ CREATE TABLE Feedback
 (
 FbkID			varchar(7)		NOT NULL,
 FbkComment		varchar(255)	NULL,
-FbkDateTime		DATE			NOT NULL DEFAULT(GETDATE()),
+FbkDateTime		DATETIME		NOT NULL DEFAULT(GETDATE()),
 FbkRating		INT				NOT NULL CHECK(FbkRating IN (1,2,3,4,5)),
 CustomerID		varchar(8)		NOT NULL,
 StallID			varchar(5)		NOT NULL,
