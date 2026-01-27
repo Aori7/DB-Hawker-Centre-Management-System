@@ -478,6 +478,29 @@ insert into OrderItem values
 ('ORDER-039',1,'FS-02','ITEM-05',2,6.00),
 ('ORDER-040',1,'FS-03','ITEM-07',1,21.00);
 
+-- Done by Ada
+insert into Likes values
+('CUST-001','FS-01','ITEM-01'),
+('CUST-001','FS-10','ITEM-23'),
+('CUST-002','FS-02','ITEM-04'),
+('CUST-002','FS-14','ITEM-30'),
+('CUST-003','FS-03','ITEM-07'),
+('CUST-003','FS-09','ITEM-21'),
+('CUST-004','FS-04','ITEM-08'),
+('CUST-004','FS-12','ITEM-26'),
+('CUST-005','FS-05','ITEM-11'),
+('CUST-005','FS-15','ITEM-32'),
+('CUST-006','FS-06','ITEM-13'),
+('CUST-006','FS-19','ITEM-37'),
+('CUST-007','FS-07','ITEM-15'),
+('CUST-007','FS-17','ITEM-35'),
+('CUST-008','FS-08','ITEM-17'),
+('CUST-008','FS-16','ITEM-33'),
+('CUST-009','FS-18','ITEM-36'),
+('CUST-009','FS-09','ITEM-22'),
+('CUST-010','FS-14','ITEM-31'),
+('CUST-010','FS-01','ITEM-02');
+
 
 
 -- Done by Calista
