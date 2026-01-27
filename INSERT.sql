@@ -37,6 +37,7 @@ Format:
 use HCManagementSystem;
 GO
 
+-- Done by Ada
 insert into Operator VALUES
 ('OP-001', 'National Environmental Agency (NEA)', 'Ang Jun De'),
 ('OP-002', 'Timbre+ Hawkers Pte Ltd', 'Kwa Xuan Ming'),
@@ -44,6 +45,7 @@ insert into Operator VALUES
 ('OP-004', 'JW 50 Hawker Heritage Pte Ltd', 'Law Yong Rui'),
 ('OP-005', 'Fei Song Social Enterprise Pte Ltd', 'Lu Ling Hui');
 
+-- Done by Ada
 insert into NEA_Officer VALUES
 ('NEA-01','Lee Jing An','94766816'),
 ('NEA-02','Ding Wei Le', '97118423'),
@@ -56,6 +58,7 @@ insert into NEA_Officer VALUES
 ('NEA-09', 'Lu Jia Hui ', '68533928'),
 ('NEA-10', 'Oon Yi Min', '88394890');
 
+-- Done by Ada
 insert into StallOwner VALUES
 ('OWN-001','Jeanette Aw', 'S8647974I', '98624618'),
 ('OWN-002','Vivian Balakrishnan','S8563528H','86534183'),
@@ -77,7 +80,7 @@ insert into StallOwner VALUES
 ('OWN-018','Siti Aminah','S8901234H','98901234'),
 ('OWN-019','Jason Tan','S9012345I','90012345');
 
-
+-- Done by Ada
 insert into Customer VALUES
 ('CUST-001', 'T0065789I','Keith Goh', '98723674', 'gohkeith@gmail.com'),
 ('CUST-002', 'T0276777G','Rohan Gunaratna','68973927','rgunaratna@gmail.com'),
@@ -90,6 +93,7 @@ insert into Customer VALUES
 ('CUST-009', 'S9112348A','Indranee Rajah', '89753106','rajahin@gmail.com'),
 ('CUST-010', 'S7652498E','Jiang Yanmei', '67913652','yanmeii@gmail.com');
 
+-- Done by Ada
 insert into HawkerCentre VALUES
 ('HC-001', 'Maxwell Food Centre', '1 Kadayanallur Street 069184', 'OP-001'),
 ('HC-002', 'Chinatown Complex Market & Food Centre', '335 Smith Street 050335', 'OP-002'),
@@ -107,6 +111,7 @@ insert into HawkerCentre VALUES
 ('HC-014', 'Yishun Park Hawker Centre', '51 Yishun Ring Road 768681', 'OP-005'),
 ('HC-015', 'One Punggol Hawker Centre', '1 Punggol Drive 828629', 'OP-002');
 
+-- Done by Ada
 insert into FoodStall VALUES
 ('FS-01','A01','Ayam Penyet Ria','Delicious Ayam Penyet','HC-001'),
 ('FS-02','A02','Ah Tai Chicken Rice','Michelin Bib Gourmand stall','HC-001'),
@@ -128,6 +133,7 @@ insert into FoodStall VALUES
 ('FS-18','P04','Laksa Express','Spicy laksa bowls','HC-015'),
 ('FS-19','P05','Kopi Kiosk','Coffee & toast','HC-015');
 
+-- Done by Ada
 insert into Inspection VALUES
 ('IN-001','2021-03-15','A','2026-03-15','NEA-01','FS-01'),
 ('IN-002','2021-06-20','B','2026-06-20','NEA-02','FS-02'),
@@ -149,6 +155,7 @@ insert into Inspection VALUES
 ('IN-018','2025-03-03','B','2030-03-03','NEA-08','FS-18'),
 ('IN-019','2025-03-21','A','2030-03-21','NEA-09','FS-19');
 
+-- Done by Ada
 insert into InspectionRemark VALUES
 ('IN-017','Waste bins uncovered and overflowing'),
 ('IN-007','Serious cleanliness issues found in washing area'),
@@ -161,7 +168,7 @@ insert into InspectionRemark VALUES
 ('IN-014','staff trained in proper food handling procedures. good job'),
 ('IN-015','Immediate cleaning action required.');
 
-
+-- Done by Ada
 insert into Promotion VALUES
 ('PROMO-001', '10% off Ayam Penyet Set', '2024-01-10', '2024-02-10', 'FS-01'),
 ('PROMO-002', 'Free drink with chicken rice', '2024-02-01', '2024-02-28', 'FS-02'),
@@ -207,7 +214,9 @@ insert into RentalAgreement VALUES
 /*07*/
 ('AGR-019', '2024-07-13', '2025-07-13', 'Rental contract detailing stall usage, payments, and compliance requirements', '', ''),
 ('AGR-020', '2024-07-13', '2025-05-13', 'Rental contract detailing stall usage, payments, and compliance requirements', '', ''),
-/*01 - 2026*/
+
+
+/*01 - 2026, active agreements*/
 ('AGR-021', '2025-01-05', '2026-01-05', 'Defines the rights and responsibilities of vendors renting a food stall.', '', ''),
 ('AGR-022', '2025-01-05', '2026-01-05', 'Defines the rights and responsibilities of vendors renting a food stall.', '', ''),
 ('AGR-023', '2025-01-05', '2026-01-05', 'Defines the rights and responsibilities of vendors renting a food stall.', '', ''),
