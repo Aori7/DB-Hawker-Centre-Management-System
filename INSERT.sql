@@ -204,14 +204,12 @@ insert into RentalAgreement VALUES
 ('AGR-017','2024-06-24','2025-06-23','Sets out the terms for leasing and using a hawker food stall','OWN-017','FS-17'),
 ('AGR-018','2024-06-30','2025-06-29','Sets out the terms for leasing and using a hawker food stall','OWN-018','FS-18'),
 ('AGR-019','2024-07-13','2025-07-12','Rental contract detailing stall usage, payments, and compliance requirements','OWN-019','FS-19'),
-
 /* CURRENT (active in 2026)*/
 ('AGR-020','2025-01-08','2026-01-07','Defines the rights and responsibilities of vendors renting a food stall.','OWN-001','FS-01'),
 ('AGR-021','2025-01-15','2026-01-14','Defines the rights and responsibilities of vendors renting a food stall.','OWN-002','FS-02'),
 ('AGR-022','2025-01-22','2026-01-21','Defines the rights and responsibilities of vendors renting a food stall.','OWN-003','FS-03'),
 ('AGR-023','2025-01-21','2026-01-20','Defines the rights and responsibilities of vendors renting a food stall.','OWN-004','FS-04'),
 ('AGR-024','2025-01-28','2026-01-27','Defines the rights and responsibilities of vendors renting a food stall.','OWN-005','FS-05'),
-
 ('AGR-025','2025-02-15','2026-02-14','Agreement covering stall rental conditions and operational requirements','OWN-006','FS-06'),
 ('AGR-026','2025-02-25','2026-02-24','Agreement covering stall rental conditions and operational requirements','OWN-007','FS-07'),
 ('AGR-027','2025-03-03','2026-03-02','Agreement covering stall rental conditions and operational requirements','OWN-008','FS-08'),
@@ -309,3 +307,78 @@ insert into MenuItem Values
 -- FS-19 Kopi Kiosk
 ('FS-19','ITEM-37','Coffee with evaporated milk',2.80,'Drink'),
 ('FS-19','ITEM-38','Black tea (no milk)',2.10,'Drink');
+
+
+-- Done by Ada
+-- each menu item can have multiple cuisines
+insert into MenuItemCuisine VALUES
+-- FS-01 Ayam Penyet Ria (Indonesian, Malay), 3 items
+('C005','FS-01','ITEM-01'),
+('C003','FS-01','ITEM-01'),
+('C005','FS-01','ITEM-02'),
+('C003','FS-01','ITEM-02'),
+('C005','FS-01','ITEM-03'),
+('C003','FS-01','ITEM-03'),
+-- FS-02 Ah Tai Chicken Rice (Chinese) , 2 items
+('C004','FS-02','ITEM-04'),
+('C004','FS-02','ITEM-05'),
+-- FS-03 Liao Fan Hawker Chan (Chinese), 2 items
+('C004','FS-03','ITEM-06'),
+('C004','FS-03','ITEM-07'),
+-- FS-04 Zhong Guo La Mian (Chinese), 3 items
+('C004','FS-04','ITEM-08'),
+('C004','FS-04','ITEM-09'),
+('C004','FS-04','ITEM-10'),
+-- FS-05 Jian Bo Shui Kueh (Chinese), 2items
+('C004','FS-05','ITEM-11'),
+('C004','FS-05','ITEM-12'),
+-- FS-06 Lee Hong Kee Roasted (Chinese), 2 items
+('C004','FS-06','ITEM-13'),
+('C004','FS-06','ITEM-14'),
+-- FS-07 Nam Sing Hokkien Mee (Chinese), 2 items
+('C004','FS-07','ITEM-15'),
+('C004','FS-07','ITEM-16'),
+-- FS-08 Sri Madura Veeran (Indian) , 4 items all same cuisine
+('C007','FS-08','ITEM-17'),
+('C007','FS-08','ITEM-18'),
+('C007','FS-08','ITEM-19'),
+('C007','FS-08','ITEM-20'),
+-- FS-09 A Noodle Story (Fusion non-halal, Japanese) 2 items
+('C019','FS-09','ITEM-21'),
+('C001','FS-09','ITEM-21'),
+('C019','FS-09','ITEM-22'),
+('C001','FS-09','ITEM-22'),
+-- FS-10 Satay Street (Malay, Seafood) 2 items
+('C003','FS-10','ITEM-23'),
+('C015','FS-10','ITEM-23'),
+('C003','FS-10','ITEM-24'),
+('C015','FS-10','ITEM-24'),
+-- FS-11 Hainanese Curry Rice (Chinese) 1 item
+('C004','FS-11','ITEM-25'),
+-- FS-12 Mizzy Corner (Western) 2 item
+('C006','FS-12','ITEM-26'),
+('C006','FS-12','ITEM-27'),
+-- FS-13 Sin Kee Chicken Rice (Chinese) 2 items
+('C004','FS-13','ITEM-28'),
+('C004','FS-13','ITEM-29'),
+-- FS-14 Che Ah Coffee Shop (Chinese) 2 items
+('C004','FS-14','ITEM-30'),
+('C004','FS-14','ITEM-31'),
+-- FS-15 Hajah Maimunah (Malay) 1 item
+('C003','FS-15','ITEM-32'),
+-- FS-16 Tian Tian Dessert House (Malay, Peranakan, Fusion halal)  2 items
+('C003','FS-16','ITEM-33'),
+('C014','FS-16','ITEM-33'),
+('C018','FS-16','ITEM-33'),
+('C003','FS-16','ITEM-34'),
+('C014','FS-16','ITEM-34'),
+('C018','FS-16','ITEM-34'),
+-- FS-17 Uncle Penyet (Indonesian, Malay) 1 item
+('C005','FS-17','ITEM-35'),
+('C003','FS-17','ITEM-35'),
+-- FS-18 Laksa Express (Peranakan, Chinese) 1 item
+('C014','FS-18','ITEM-36'),
+('C004','FS-18','ITEM-36'),
+-- FS-19 Kopi Kiosk (Chinese) 2 items
+('C004','FS-19','ITEM-37'),
+('C004','FS-19','ITEM-38');
