@@ -8,10 +8,10 @@
 
 /* creating new database */
 
-/*
+
 Create Database HCManagementSystem;
 GO
-*/
+
 
 -- create tables according to data dictionary
 
@@ -140,6 +140,7 @@ AgreementID			varchar(7)		NOT NULL,
 AgrStartDate		DATE			NOT NULL DEFAULT(GETDATE()),
 AgrEndDate			DATE			NOT NULL DEFAULT(DATEADD(YEAR,1,GETDATE())),
 AgrTermCondition	varchar(255)	NOT NULL,
+RentalPrice			DECIMAL(8,2)	NOT NULL,
 OwnerID				varchar(9)		NOT NULL,
 StallID				varchar(5)		NOT NULL,
 	CONSTRAINT PK_RentalAgreement PRIMARY KEY (AgreementID),
